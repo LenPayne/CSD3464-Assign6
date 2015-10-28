@@ -15,3 +15,5 @@ To retrieve these files and work with them:
 ## When Complete
 
 Zip your folder up and submit it to the dropbox on [D2L](https://d2l.lambtoncollege.ca)
+
+# NOTE: The tests will fail until you finish the code. You can comment out the tests if you want, but remember to uncomment them before submitting!
