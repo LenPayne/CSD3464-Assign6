@@ -46,7 +46,7 @@ public class CPD3314Assign6 {
          */
     }
 
-    /* Exercise #2 - Car Class
+    /* Exercise #1 - Car Class
      * 
      * Write a class named Car that has the following fields:
      * - yearModel. The yearModel field is an int that holds the car's year model.
@@ -69,11 +69,11 @@ public class CPD3314Assign6 {
      * brake method, get the current speed of the car and display it.
      * - Gaddis pg. 400-1
      */
-    public void doExercise2() {
+    public void doExercise1() {
         // TODO: Complete the main-class portion of Exercise #2 here
     }
 
-    /* Exercise #7 - Circle Class
+    /* Exercise #2 - Circle Class
      *
      * Write a Circle class that has the following fields:
      * - radius: a double
@@ -95,11 +95,11 @@ public class CPD3314Assign6 {
      * then reporting the circle's area, diameter, and circumference.
      * - Gaddis pg- 402
      */
-    public void doExercise7() {
+    public void doExercise2() {
         // TODO: Complete the main-class portion of Exercise #7 here
     }
 
-    /* Exercise #10 & 11 - SavingsAccount Class
+    /* Exercise #3 - SavingsAccount Class
      * 
      * Design a SavingsAccount class that stores a savings account's annual 
      * interest rate and balance. The class constructor should accept the amount 
@@ -116,7 +116,7 @@ public class CPD3314Assign6 {
      * are on the right track.
      * - Gaddis pg- 403-4
      */
-    public void doExercise10() {
+    public void doExercise3() {
         Scanner kb = new Scanner(System.in);
         System.out.println("What is the annual interest rate? (eg- 0.013)");
         double annualRate = kb.nextDouble();
