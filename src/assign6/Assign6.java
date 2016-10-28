@@ -35,6 +35,7 @@ public class Assign6 {
      */
     public static void main(String[] args) {
         // TODO: This is a sandbox. 
+        
 
         /* Modify it and use it to call whatever objects and methods you want.
          * 
@@ -62,7 +63,7 @@ public class Assign6 {
      *     it is called.
      * - brake. The brake method should subtract 5 from the speed field each time it 
      *     is called.
-     * In the main class (CPD3314Assign6), demonstrate the class in a program that 
+     * In the main class (Assign6), demonstrate the class in a program that 
      * creates a Car object, and then calls the accelerate method five times. After 
      * each call to the accelerate method, get the current speed of the car and 
      * display it. Then call the brake method five times. After each call to the 
@@ -90,7 +91,7 @@ public class Assign6 {
      * - getCircumference. Returns the circumference of the circle, which is
      *     calculated as
      *     circumference = 2 * PI * radius
-     * In the main class (CPD3314Assign6), demonstrate the Circle class by 
+     * In the main class (Assign6), demonstrate the Circle class by 
      * asking the user for the circle's radius, creating a Circle object, and 
      * then reporting the circle's area, diameter, and circumference.
      * - Gaddis pg- 402
@@ -106,7 +107,7 @@ public class Assign6 {
      * of the savings account's starting balance. The class should also have 
      * methods for subtracting the amount of a withdrawal, adding the amount of 
      * a deposit, and adding the amount of monthly interest to the balance. The 
-     * monthly interest rate the annual interest rate divided by twelve. To add 
+     * monthly interest rate is the annual interest rate divided by twelve. To add 
      * the monthly interest to the balance, multiply the monthly interest rate 
      * by the balance, and add the result to the balance.
      *
@@ -116,7 +117,7 @@ public class Assign6 {
      * are on the right track.
      * - Gaddis pg- 403-4
      */
-    public void doExercise3() {
+    public static void doExercise3() {
         Scanner kb = new Scanner(System.in);
         System.out.println("What is the annual interest rate? (eg- 0.013)");
         double annualRate = kb.nextDouble();
@@ -143,7 +144,7 @@ public class Assign6 {
         System.out.printf("Total Interst: %.2f\n", sa.getTotalInterest());
     }
 
-    public void doExercise11() throws IOException {
+    public static void doExercise11() throws IOException {
         File dFile = new File("Deposits.txt");
         Scanner deposits = new Scanner(dFile);
         File wFile = new File("Withdrawals.txt");
