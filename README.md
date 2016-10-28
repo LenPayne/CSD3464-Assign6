@@ -2,6 +2,10 @@
 
 This repo contains starting files and automated unit tests for a selection of exercises based on Chapter 6 of the [textbook for this course](http://www.pearsonhighered.com/educator/product/Starting-Out-with-Java-From-Control-Structures-through-Objects-5E/9780132855839.page).
 
+## Class Diagrams
+
+![Class Diagram Image](https://github.com/LenPayne/CSD3464-Assign6/raw/master/Assign6ClassDiagrams.png)
+
 ## A First Look at Classes
 
 To retrieve these files and work with them:
