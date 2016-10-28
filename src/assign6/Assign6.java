@@ -39,7 +39,7 @@ public class Assign6 {
         /* Modify it and use it to call whatever objects and methods you want.
          * 
          * To be clear: Your task is to create methods. All of the automated
-         * tests in CPD3314Assign6Test.java are based on the classes described
+         * tests in Assign6Test.java are based on the classes described
          * below or in other files. So for example, in Ex#2, you must build the 
          * Car class. The automated tests will tell you if you built it correctly.
          *
